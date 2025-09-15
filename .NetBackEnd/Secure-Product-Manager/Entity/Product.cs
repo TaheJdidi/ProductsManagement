@@ -2,6 +2,7 @@
 {
     public class Product
     {
+        public string? id { get; set; }
         public required string name { get; set; }
         public int price { get; set; }
         public int quantity { get; set; }
